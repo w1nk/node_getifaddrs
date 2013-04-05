@@ -11,7 +11,6 @@
 #include <node.h>
 
 namespace getifaddrs_v8 {
-void Initialize( v8::Handle<v8::Object> target );
-v8::Handle<v8::Value> interfaces( const v8::Arguments &args );
+    void Initialize( v8::Handle<v8::Object> target );
+    v8::Handle<v8::Value> interfaces( const v8::Arguments &args );
 }
-
