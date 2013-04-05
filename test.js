@@ -1,4 +1,2 @@
-var getifaddrs = require( "./getifaddrs" )
-  , sys = require( "sys" )
-
-sys.puts(sys.inspect(getifaddrs.interfaces()));
+var getifaddrs = require("./index.js");
+console.log(getifaddrs.interfaces());

@@ -1,0 +1,16 @@
+{
+  "name": "getifaddrs",
+  "version": "0.0.2",
+  "description": "Simple node wrapper around native getifaddrs.",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joelrbrandt/node-getifaddrs.git"
+  },
+  "engines": {"node": ">=0.8.0"},
+  "license": "MIT",
+  "gypfile": true
+}

@@ -1,3 +1,25 @@
+node-getifaddrs
+===============
+
+Simple node wrapper around native getifaddrs. Useful for getting details on network interfaces.
+
+To install:
+-----------
+```bash
+npm install getifaddrs
+```
+
+To use:
+-------
+```javascript
+var getifaddrs = require("getifaddrs");
+console.log(getifaddrs.interfaces());
+```
+
+License
+-------
+(MIT License)
+
 Copyright (c) 2010 Lee Smith <notwink@gmail.com>
 Copyright (c) 2013 Joel Brandt <joelrbrandt@gmail.com>
 
